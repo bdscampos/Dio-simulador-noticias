@@ -1,16 +1,16 @@
-package com.bdscampos.dio_simulador_noticias.ui.home;
+package com.bdscampos.dio_simulador_noticias.ui.favorites;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class FavoritesViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public FavoritesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is favorites fragment");
     }
 
     public LiveData<String> getText() {

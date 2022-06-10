@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Dio-simulador-noticias</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_news">News</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="cd_share_icon">Share Icon</string>
+    <string name="cd_favorite_icon">Favorite Icon</string>
 </resources>
